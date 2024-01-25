@@ -1,0 +1,152 @@
+/* pikachu styl */
+
+.outer {
+  border: 3px solid black ;  
+
+  max-width: 1000px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  overflow:  auto;
+
+
+
+}
+
+header {
+background-color: bisque; /* til pikachu */
+
+position: relative;
+}
+
+#logo-t {
+ font-size: 80px;   
+ text-align: center;
+ margin: 0;
+font-family: cursive;
+
+}
+
+#logo {
+    max-width: 1000px;
+
+    height: auto;
+
+    position: absolute;
+
+    top: 10px;
+
+
+}
+
+/* nav */
+
+nav{
+    text-align: center;
+    background-color: white ;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+nav ul li {
+    display: inline;
+
+    font-family:cursive ;
+
+    font-size: 30px;
+
+    padding-right: 20px;
+
+
+}
+
+nav ul li  :hover {
+    color: goldenrod;
+}
+
+a {
+    color: inherit;
+
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: inherit;
+
+    text-decoration: inherit;
+}
+
+/* intro */
+
+.intro{
+    background-color: khaki;
+    overflow: auto;
+}
+
+.imge {
+    max-width: 600px;
+
+    margin: o;
+   
+    float: left;
+}
+
+.intro-imge {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 6px solid black;
+    box-sizing: border-box;
+
+}
+
+footer {
+    background-color: bisque;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px solid black;
+}
+
+footer p {
+    margin: 0;
+text-align: center;
+}
+
+
+/* gallery*/
+.gallery {
+    background-color: khaki;
+    overflow: auto;
+
+
+}
+
+.gallery2 {
+    display: flex;
+    justify-content: center;
+    background-color: khaki;
+    
+}
+
+.gallery3 {
+    display: flex;
+    justify-content: center;
+    background-color: khaki;
+}
+
+/* aboutt */
+
+.aboutt {
+    background-color: khaki;
+    overflow: auto;
+    margin: 0;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.logo-tt {
+    display: flex;
+    justify-content: center;
+}
